@@ -20,5 +20,5 @@ if guess< st.session_state.secret:
         st.success(Yay! You guessed it!')
 if guess==st.session_state.secret:
     if st.button('Play again'):
-        st.session_state.secret = random.ranint(1,100)
+        st.session_state.secret = random.randint(1,100)
         st.rerun()    
