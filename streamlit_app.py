@@ -14,7 +14,7 @@ if st.button('Submit Guess'):
     st.write('You guessed '(str(guess)))
 if guess< st.session_state.secret:
     st.warning('Sorry, too low')
-    elif guess. st,session_state.secret:
+    elif guess> st.session_state.secret:
         st.warning('Sorry, too high')
     else:
         st.success('Yay! You guessed it!')
