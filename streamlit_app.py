@@ -17,7 +17,7 @@ if guess< st.session_state.secret:
     elif guess. st,session_state.secret:
         st.warning('Sorry, too high')
     else:
-        st.success(Yay! You guessed it!')
+        st.success('Yay! You guessed it!')
 if guess==st.session_state.secret:
     if st.button('Play again'):
         st.session_state.secret = random.randint(1,100)
